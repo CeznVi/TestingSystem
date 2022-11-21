@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Scenes">
+      <UniqueIdentifier>{300d23b9-d770-4888-a4a9-914e48ac28e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Entities">
+      <UniqueIdentifier>{2c125096-705d-4279-a56e-1859cbe576ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Utils">
+      <UniqueIdentifier>{22c9ab62-6eae-4593-b966-abd190d2051c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLoader.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="UIController.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\AdminMenuScene.cpp">
+      <Filter>Исходные файлы\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\AdminTestManagementMenuScene.cpp">
+      <Filter>Исходные файлы\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\BaseScene.cpp">
+      <Filter>Исходные файлы\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\ChangePasswordScene.cpp">
+      <Filter>Исходные файлы\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\ErrorScene.cpp">
+      <Filter>Исходные файлы\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\ExportScene.cpp">
+      <Filter>Исходные файлы\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\ImportScene.cpp">
+      <Filter>Исходные файлы\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\ListForResultsScenes.cpp">
+      <Filter>Исходные файлы\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\InitScene.cpp">
+      <Filter>Исходные файлы\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\LoginScene.cpp">
+      <Filter>Исходные файлы\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\ManageUserScene.cpp">
+      <Filter>Исходные файлы\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\MessageScene.cpp">
+      <Filter>Исходные файлы\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\NewAnswerScene.cpp">
+      <Filter>Исходные файлы\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\NewQuestionScene.cpp">
+      <Filter>Исходные файлы\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\NewSubjectScene.cpp">
+      <Filter>Исходные файлы\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\NewTestScene.cpp">
+      <Filter>Исходные файлы\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\SetCorrectAnswerScene.cpp">
+      <Filter>Исходные файлы\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\UnauthorizedMenuScene.cpp">
+      <Filter>Исходные файлы\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\UserMenuScene.cpp">
+      <Filter>Исходные файлы\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\UserPageScene.cpp">
+      <Filter>Исходные файлы\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\UserSubjectListScene.cpp">
+      <Filter>Исходные файлы\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\UserTestQuestionScene.cpp">
+      <Filter>Исходные файлы\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\UserUnfinishedTestListScene.cpp">
+      <Filter>Исходные файлы\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\ViewResultMenuScene.cpp">
+      <Filter>Исходные файлы\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\TestResultScene.cpp">
+      <Filter>Исходные файлы\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="entities\User.cpp">
+      <Filter>Исходные файлы\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="entities\TestReport.cpp">
+      <Filter>Исходные файлы\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="entities\Test.cpp">
+      <Filter>Исходные файлы\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="entities\Subject.cpp">
+      <Filter>Исходные файлы\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="entities\Question.cpp">
+      <Filter>Исходные файлы\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="entities\entities.cpp">
+      <Filter>Исходные файлы\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="entities\Answer.cpp">
+      <Filter>Исходные файлы\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\Logger.cpp">
+      <Filter>Исходные файлы\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\md5.cpp">
+      <Filter>Исходные файлы\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\StringUtils.cpp">
+      <Filter>Исходные файлы\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FileLoader.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="UIController.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="entities\entities.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="scenes\PaginationScene.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="scenes\scenes.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Logger.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\md5.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\StringUtils.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\DB.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="..\Read Me.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
